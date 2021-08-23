@@ -1,0 +1,1103 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.25)  22 AUG 2021 20:28
+entering extended mode
+**./Tent.tex
+(Tent.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsart.cls"
+Document Class: amsart 2017/10/31 v2.20.4
+\linespacing=\dimen102
+\normalparindent=\dimen103
+\normaltopskip=\skip41
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip42
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen104
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count79
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count80
+\leftroot@=\count81
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count82
+\DOTSCASE@=\count83
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count84
+\c@MaxMatrixCols=\count85
+\dotsspace@=\muskip10
+\c@parentequation=\count86
+\dspbrk@lvl=\count87
+\tag@help=\toks15
+\row@=\count88
+\column@=\count89
+\maxfields@=\count90
+\andhelp@=\toks16
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks17
+\multlinegap=\skip43
+\multlinetaggap=\skip44
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 398.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+\copyins=\insert199
+\abstractbox=\box28
+\listisep=\skip45
+\c@part=\count91
+\c@section=\count92
+\c@subsection=\count93
+\c@subsubsection=\count94
+\c@paragraph=\count95
+\c@subparagraph=\count96
+\c@figure=\count97
+\c@table=\count98
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\captionindent=\dimen113
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip48
+\thm@postskip=\skip49
+\thm@headsep=\skip50
+\dth@everypar=\toks24
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+\c@theorem=\count99
+\c@lemma=\count100
+ (Tent.aux)
+\openout1 = `Tent.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen116
+\scratchbox=\box29
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen117
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks27
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Overfull \hbox (4.48889pt too wide) in paragraph at lines 21--29
+[]\OT1/cmr/m/n/10 The ar-ti-cle uses the pre-dic-tive con-trol method to search
+
+ []
+
+! Argument of \@sect has an extra }.
+<inserted text> 
+                \par 
+l.37 \section*{\centering{Introduction}}
+                                        
+? r
+OK, entering \nonstopmode...
+Runaway argument?
+{\normalfont \scshape \centering }{\def \reserved@a *{\nobreak \@xcentercr \ETC
+.
+! Paragraph ended before \@sect was complete.
+<to be read again> 
+                   \par 
+l.37 \section*{\centering{Introduction}}
+                                        
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[1{C:/Users/user/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (7.90659pt too wide) in paragraph at lines 57--63
+\OT1/cmr/m/n/12 the bi-nary sys-tem by a fi-nite sum of num-bers of the form $[
+]$ $[] \OML/cmm/m/it/12 ;$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Package epstopdf Info: Source file: <Fig1.eps>
+(epstopdf)                    date: 2021-08-20 12:02:11
+(epstopdf)                    size: 68128 bytes
+(epstopdf)             Output file: <Fig1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:31:42
+(epstopdf)                    size: 12389 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig1-eps-converted-to.pdf F
+ig1.eps>
+(epstopdf)             \includegraphics on input line 90.
+Package epstopdf Info: Output file is already uptodate.
+<Fig1-eps-converted-to.pdf, id=24, 557.08125pt x 557.08125pt>
+File: Fig1-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig1-eps-converted-to.pdf>
+Package pdftex.def Info: Fig1-eps-converted-to.pdf  used on input line 90.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+
+[3 <./Fig1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Fig2a.eps>
+(epstopdf)                    date: 2021-08-20 12:02:12
+(epstopdf)                    size: 114786 bytes
+(epstopdf)             Output file: <Fig2a-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:31:44
+(epstopdf)                    size: 28184 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig2a-eps-converted-to.pdf 
+Fig2a.eps>
+(epstopdf)             \includegraphics on input line 129.
+Package epstopdf Info: Output file is already uptodate.
+<Fig2a-eps-converted-to.pdf, id=30, 557.08125pt x 557.08125pt>
+File: Fig2a-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig2a-eps-converted-to.pdf>
+Package pdftex.def Info: Fig2a-eps-converted-to.pdf  used on input line 129.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+Package epstopdf Info: Source file: <Fig2b.eps>
+(epstopdf)                    date: 2021-08-20 12:02:12
+(epstopdf)                    size: 79414 bytes
+(epstopdf)             Output file: <Fig2b-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:31:46
+(epstopdf)                    size: 15843 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig2b-eps-converted-to.pdf 
+Fig2b.eps>
+(epstopdf)             \includegraphics on input line 131.
+Package epstopdf Info: Output file is already uptodate.
+<Fig2b-eps-converted-to.pdf, id=31, 557.08125pt x 557.08125pt>
+File: Fig2b-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig2b-eps-converted-to.pdf>
+Package pdftex.def Info: Fig2b-eps-converted-to.pdf  used on input line 131.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+
+! Argument of \@caption has an extra }.
+<inserted text> 
+                \par 
+l.134 b) at $k=165,\,\ldots,\,210$}
+                                    \label{f2}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+\@captype {\def \reserved@a *{\nobreak \@xcentercr }\reserved@a }\def \ETC.
+! Paragraph ended before \@caption was complete.
+<to be read again> 
+                   \par 
+l.134 b) at $k=165,\,\ldots,\,210$}
+                                    \label{f2}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4]
+Underfull \vbox (badness 2521) has occurred while \output is active []
+
+ [5 <./Fig2a-eps-converted-to.pdf> <./Fig2b-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+! Argument of \@sect has an extra }.
+<inserted text> 
+                \par 
+l.191 \section{\centering{Preliminary results}}
+                                               
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\normalfont \scshape \centering }{\def \reserved@a *{\nobreak \@xcentercr \ETC
+.
+! Paragraph ended before \@sect was complete.
+<to be read again> 
+                   \par 
+l.191 \section{\centering{Preliminary results}}
+                                               
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[7]
+! Argument of \@sect has an extra }.
+<inserted text> 
+                \par 
+l.228 \section{\centering{Problem statement}}
+                                             
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\normalfont \scshape \centering }{\def \reserved@a *{\nobreak \@xcentercr \ETC
+.
+! Paragraph ended before \@sect was complete.
+<to be read again> 
+                   \par 
+l.228 \section{\centering{Problem statement}}
+                                             
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[8]
+! Argument of \@sect has an extra }.
+<inserted text> 
+                \par 
+l.258 ...vior of the control system trajectories}}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\normalfont \scshape \centering }{\def \reserved@a *{\nobreak \@xcentercr \ETC
+.
+! Paragraph ended before \@sect was complete.
+<to be read again> 
+                   \par 
+l.258 ...vior of the control system trajectories}}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Overfull \hbox (4.3005pt too wide) in paragraph at lines 260--261
+[]\OT1/cmr/m/n/12 To solve the stated prob-lem, we will use the pre-dic-tive co
+n-trol method.
+ []
+
+
+Overfull \hbox (9.2531pt too wide) in paragraph at lines 267--270
+[]\OT1/cmr/m/n/12 Let $[]$ be the equa-tion (3[]) cy-cle. Since $\OML/cmm/m/it/
+12 #[] \OT1/cmr/m/n/12 + (1 \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 #\OT1/cmr/m/n/
+12 )\OML/cmm/m/it/12 f[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 []\OT1/cmr/m/n/12 ) 
+=
+ []
+
+[9]
+! Argument of \@sect has an extra }.
+<inserted text> 
+                \par 
+l.311 ...vior of the control system trajectories}}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\normalfont \scshape \centering }{\def \reserved@a *{\nobreak \@xcentercr \ETC
+.
+! Paragraph ended before \@sect was complete.
+<to be read again> 
+                   \par 
+l.311 ...vior of the control system trajectories}}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[10]
+Overfull \hbox (17.22516pt too wide) in paragraph at lines 341--344
+\OT1/cmr/m/it/12 hence, $\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
+x[]\OT1/cmr/m/n/12 ) = 0$ \OT1/cmr/m/it/12 when $\OML/cmm/m/it/12 k \OT1/cmr/m/
+n/12 = 2\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ; [] \OT1/cmr/m/n
+/12 ;$ \OT1/cmr/m/it/12 if $\OML/cmm/m/it/12 x[] \OMS/cmsy/m/n/12 2 \OT1/cmr/m/
+n/12 (0\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12 1)\OML/cmm/m/it/12 ;$ \OT1/cmr/m/it/
+12 then $[][] \OMS/cmsy/m/n/12 2
+ []
+
+
+Overfull \hbox (32.35445pt too wide) in paragraph at lines 364--367
+[]$ \OT1/cmr/m/it/12 when $\OML/cmm/m/it/12 x[] \OMS/cmsy/m/n/12 2 \OT1/cmr/m/n
+/12 (0\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12 1)\OML/cmm/m/it/12 ;$ \OT1/cmr/m/it/1
+2 ei-ther $\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/
+n/12 ) [] 0$ \OT1/cmr/m/it/12 or $[][] \OMS/cmsy/m/n/12 2
+ []
+
+[11]
+Overfull \hbox (18.79358pt too wide) detected at line 426
+\OML/cmm/m/it/12 F\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 ) \OML/c
+mm/m/it/12 > H [] > \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 H [] :
+ []
+
+[12]
+Overfull \hbox (13.60541pt too wide) in paragraph at lines 443--444
+\OT1/cmr/bx/n/12 Lemma 5. \OT1/cmr/m/it/12 Let con-di-tions (7[]) be sat-is-fie
+d and $\OML/cmm/m/it/12 x[] < \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :$ \OT1/cmr/m/i
+t/12 Then $\OML/cmm/m/it/12 F[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/
+n/12 ) []
+ []
+
+
+Overfull \hbox (5.57445pt too wide) detected at line 464
+\OML/cmm/m/it/12  \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 #x[] \OT1/cmr/m/n/12 + (1
+ \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 #\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 f[]\OT1
+/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 ) = [] [] \OML/cmm/m/it/12 ;
+ []
+
+
+Overfull \hbox (37.82391pt too wide) detected at line 483
+[]
+ []
+
+
+Overfull \hbox (37.82391pt too wide) in alignment at lines 483--483
+[] [] 
+ []
+
+[13]
+Overfull \hbox (26.80208pt too wide) detected at line 488
+\OML/cmm/m/it/12  \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 #x[] \OT1/cmr/m/n/12 + (1
+ \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 #\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 f[]\OT1
+/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 < [] [] ;
+ []
+
+
+Overfull \hbox (25.0328pt too wide) detected at line 495
+[]
+ []
+
+
+Overfull \hbox (25.0328pt too wide) in alignment at lines 495--495
+[] [] 
+ []
+
+
+Overfull \hbox (26.80208pt too wide) detected at line 503
+\OML/cmm/m/it/12  \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 #x[] \OT1/cmr/m/n/12 + (1
+ \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 #\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 f[]\OT1
+/cmr/m/n/12 (\OML/cmm/m/it/12 x[]\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 > [] [] :
+ []
+
+[14]
+! Argument of \@sect has an extra }.
+<inserted text> 
+                \par 
+l.523 ...icularities of using the control system}}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\normalfont \scshape \centering }{\def \reserved@a *{\nobreak \@xcentercr \ETC
+.
+! Paragraph ended before \@sect was complete.
+<to be read again> 
+                   \par 
+l.523 ...icularities of using the control system}}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[15]
+Package epstopdf Info: Source file: <Fig3a.eps>
+(epstopdf)                    date: 2021-08-20 12:02:12
+(epstopdf)                    size: 169059 bytes
+(epstopdf)             Output file: <Fig3a-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:31:48
+(epstopdf)                    size: 11908 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig3a-eps-converted-to.pdf 
+Fig3a.eps>
+(epstopdf)             \includegraphics on input line 580.
+Package epstopdf Info: Output file is already uptodate.
+<Fig3a-eps-converted-to.pdf, id=75, 557.08125pt x 557.08125pt>
+File: Fig3a-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig3a-eps-converted-to.pdf>
+Package pdftex.def Info: Fig3a-eps-converted-to.pdf  used on input line 580.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+Package epstopdf Info: Source file: <Fig3b.eps>
+(epstopdf)                    date: 2021-08-20 12:02:12
+(epstopdf)                    size: 169043 bytes
+(epstopdf)             Output file: <Fig3b-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:31:50
+(epstopdf)                    size: 11875 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig3b-eps-converted-to.pdf 
+Fig3b.eps>
+(epstopdf)             \includegraphics on input line 582.
+Package epstopdf Info: Output file is already uptodate.
+<Fig3b-eps-converted-to.pdf, id=76, 557.08125pt x 557.08125pt>
+File: Fig3b-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig3b-eps-converted-to.pdf>
+Package pdftex.def Info: Fig3b-eps-converted-to.pdf  used on input line 582.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Fig4.eps>
+(epstopdf)                    date: 2021-08-20 12:02:12
+(epstopdf)                    size: 274807 bytes
+(epstopdf)             Output file: <Fig4-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:31:53
+(epstopdf)                    size: 13071 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig4-eps-converted-to.pdf F
+ig4.eps>
+(epstopdf)             \includegraphics on input line 589.
+Package epstopdf Info: Output file is already uptodate.
+<Fig4-eps-converted-to.pdf, id=77, 557.08125pt x 557.08125pt>
+File: Fig4-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig4-eps-converted-to.pdf>
+Package pdftex.def Info: Fig4-eps-converted-to.pdf  used on input line 589.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Fig5a.eps>
+(epstopdf)                    date: 2021-08-20 12:02:12
+(epstopdf)                    size: 102530 bytes
+(epstopdf)             Output file: <Fig5a-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:31:55
+(epstopdf)                    size: 21249 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig5a-eps-converted-to.pdf 
+Fig5a.eps>
+(epstopdf)             \includegraphics on input line 596.
+Package epstopdf Info: Output file is already uptodate.
+<Fig5a-eps-converted-to.pdf, id=78, 557.08125pt x 557.08125pt>
+File: Fig5a-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig5a-eps-converted-to.pdf>
+Package pdftex.def Info: Fig5a-eps-converted-to.pdf  used on input line 596.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+Package epstopdf Info: Source file: <Fig5b.eps>
+(epstopdf)                    date: 2021-08-20 12:02:12
+(epstopdf)                    size: 69089 bytes
+(epstopdf)             Output file: <Fig5b-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:31:57
+(epstopdf)                    size: 12536 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig5b-eps-converted-to.pdf 
+Fig5b.eps>
+(epstopdf)             \includegraphics on input line 598.
+Package epstopdf Info: Output file is already uptodate.
+<Fig5b-eps-converted-to.pdf, id=79, 557.08125pt x 557.08125pt>
+File: Fig5b-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig5b-eps-converted-to.pdf>
+Package pdftex.def Info: Fig5b-eps-converted-to.pdf  used on input line 598.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Fig6.eps>
+(epstopdf)                    date: 2021-08-20 12:02:12
+(epstopdf)                    size: 4264807 bytes
+(epstopdf)             Output file: <Fig6-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:32:05
+(epstopdf)                    size: 52201 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig6-eps-converted-to.pdf F
+ig6.eps>
+(epstopdf)             \includegraphics on input line 605.
+Package epstopdf Info: Output file is already uptodate.
+<Fig6-eps-converted-to.pdf, id=80, 557.08125pt x 557.08125pt>
+File: Fig6-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig6-eps-converted-to.pdf>
+Package pdftex.def Info: Fig6-eps-converted-to.pdf  used on input line 605.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Fig7.eps>
+(epstopdf)                    date: 2021-08-20 12:02:12
+(epstopdf)                    size: 81571 bytes
+(epstopdf)             Output file: <Fig7-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:32:07
+(epstopdf)                    size: 15805 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig7-eps-converted-to.pdf F
+ig7.eps>
+(epstopdf)             \includegraphics on input line 612.
+Package epstopdf Info: Output file is already uptodate.
+<Fig7-eps-converted-to.pdf, id=81, 557.08125pt x 557.08125pt>
+File: Fig7-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig7-eps-converted-to.pdf>
+Package pdftex.def Info: Fig7-eps-converted-to.pdf  used on input line 612.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+! Argument of \@sect has an extra }.
+<inserted text> 
+                \par 
+l.617 ...aphical study of the control system map}}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\normalfont \scshape \centering }{\def \reserved@a *{\nobreak \@xcentercr \ETC
+.
+! Paragraph ended before \@sect was complete.
+<to be read again> 
+                   \par 
+l.617 ...aphical study of the control system map}}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[16]
+Package epstopdf Info: Source file: <Fig8.eps>
+(epstopdf)                    date: 2021-08-20 12:02:12
+(epstopdf)                    size: 59501 bytes
+(epstopdf)             Output file: <Fig8-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:32:10
+(epstopdf)                    size: 9286 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig8-eps-converted-to.pdf F
+ig8.eps>
+(epstopdf)             \includegraphics on input line 634.
+Package epstopdf Info: Output file is already uptodate.
+<Fig8-eps-converted-to.pdf, id=85, 557.08125pt x 557.08125pt>
+File: Fig8-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig8-eps-converted-to.pdf>
+Package pdftex.def Info: Fig8-eps-converted-to.pdf  used on input line 634.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
+\OT1/cmr/m/sc/12 Figure 8.\OT1/cmr/m/n/12 Graphs of the func-tion $\OML/cmm/m/i
+t/12 y \OT1/cmr/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 637--637
+\OML/cmm/m/it/12 f []$ \OT1/cmr/m/n/12 at $\OML/cmm/m/it/12 # \OT1/cmr/m/n/12 =
+ []$ (red); at $\OML/cmm/m/it/12 # \OT1/cmr/m/n/12 = []$
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17 <./Fig3a-eps-converted-to.pdf> <./Fig3b-eps-converted-to.pdf> <./Fig4-eps-c
+onverted-to.pdf>]
+
+LaTeX Warning: Text page 18 contains only floats.
+
+[18 <./Fig5a-eps-converted-to.pdf> <./Fig5b-eps-converted-to.pdf> <./Fig6-eps-c
+onverted-to.pdf> <./Fig7-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Fig9.eps>
+(epstopdf)                    date: 2021-08-20 12:02:12
+(epstopdf)                    size: 57047 bytes
+(epstopdf)             Output file: <Fig9-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:32:12
+(epstopdf)                    size: 8562 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig9-eps-converted-to.pdf F
+ig9.eps>
+(epstopdf)             \includegraphics on input line 648.
+Package epstopdf Info: Output file is already uptodate.
+<Fig9-eps-converted-to.pdf, id=106, 557.08125pt x 557.08125pt>
+File: Fig9-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig9-eps-converted-to.pdf>
+Package pdftex.def Info: Fig9-eps-converted-to.pdf  used on input line 648.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 651--651
+\OT1/cmr/m/sc/12 Figure 9.\OT1/cmr/m/n/12 Graphs of the func-tion $\OML/cmm/m/i
+t/12 y \OT1/cmr/m/n/12 =
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 651--651
+\OML/cmm/m/it/12 f []$ \OT1/cmr/m/n/12 at $\OML/cmm/m/it/12 # \OT1/cmr/m/n/12 =
+ []$ (red); at $\OML/cmm/m/it/12 # \OT1/cmr/m/n/12 = []$
+ []
+
+[19 <./Fig8-eps-converted-to.pdf> <./Fig9-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Fig10.eps>
+(epstopdf)                    date: 2021-08-20 12:02:11
+(epstopdf)                    size: 62373 bytes
+(epstopdf)             Output file: <Fig10-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:32:14
+(epstopdf)                    size: 10145 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig10-eps-converted-to.pdf 
+Fig10.eps>
+(epstopdf)             \includegraphics on input line 670.
+Package epstopdf Info: Output file is already uptodate.
+<Fig10-eps-converted-to.pdf, id=115, 557.08125pt x 557.08125pt>
+File: Fig10-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig10-eps-converted-to.pdf>
+Package pdftex.def Info: Fig10-eps-converted-to.pdf  used on input line 670.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+Package epstopdf Info: Source file: <Fig11a.eps>
+(epstopdf)                    date: 2021-08-20 15:21:22
+(epstopdf)                    size: 60188 bytes
+(epstopdf)             Output file: <Fig11a-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 15:21:51
+(epstopdf)                    size: 9542 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig11a-eps-converted-to.pdf
+ Fig11a.eps>
+(epstopdf)             \includegraphics on input line 678.
+Package epstopdf Info: Output file is already uptodate.
+<Fig11a-eps-converted-to.pdf, id=116, 557.08125pt x 557.08125pt>
+File: Fig11a-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig11a-eps-converted-to.pdf>
+Package pdftex.def Info: Fig11a-eps-converted-to.pdf  used on input line 678.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+Package epstopdf Info: Source file: <Fig11b.eps>
+(epstopdf)                    date: 2021-08-20 15:21:35
+(epstopdf)                    size: 68515 bytes
+(epstopdf)             Output file: <Fig11b-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 15:21:52
+(epstopdf)                    size: 12106 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig11b-eps-converted-to.pdf
+ Fig11b.eps>
+(epstopdf)             \includegraphics on input line 682.
+Package epstopdf Info: Output file is already uptodate.
+<Fig11b-eps-converted-to.pdf, id=117, 557.08125pt x 557.08125pt>
+File: Fig11b-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig11b-eps-converted-to.pdf>
+Package pdftex.def Info: Fig11b-eps-converted-to.pdf  used on input line 682.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+ [20 <./Fig10-eps-converted-to.pdf> <./Fig11a-eps-converted-to.pdf> <./Fig11b-e
+ps-converted-to.pdf>]
+Overfull \hbox (19.05338pt too wide) in paragraph at lines 696--710
+\OT1/cmr/m/n/12 does not de-crease on $(\OMS/cmsy/m/n/12  1\OT1/cmr/m/n/12 ; \O
+MS/cmsy/m/n/12 1\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :$ \OT1/cmr/m/n/12 In-deed, $
+\OML/cmm/m/it/12 []\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 ) = [] =
+ []$
+ []
+
+Package epstopdf Info: Source file: <Fig12.eps>
+(epstopdf)                    date: 2021-08-20 12:02:11
+(epstopdf)                    size: 60725 bytes
+(epstopdf)             Output file: <Fig12-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:32:20
+(epstopdf)                    size: 9663 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig12-eps-converted-to.pdf 
+Fig12.eps>
+(epstopdf)             \includegraphics on input line 714.
+Package epstopdf Info: Output file is already uptodate.
+<Fig12-eps-converted-to.pdf, id=127, 557.08125pt x 557.08125pt>
+File: Fig12-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig12-eps-converted-to.pdf>
+Package pdftex.def Info: Fig12-eps-converted-to.pdf  used on input line 714.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+[21 <./Fig12-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Fig13a.eps>
+(epstopdf)                    date: 2021-08-20 12:02:11
+(epstopdf)                    size: 66474 bytes
+(epstopdf)             Output file: <Fig13a-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:32:22
+(epstopdf)                    size: 11766 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig13a-eps-converted-to.pdf
+ Fig13a.eps>
+(epstopdf)             \includegraphics on input line 735.
+Package epstopdf Info: Output file is already uptodate.
+<Fig13a-eps-converted-to.pdf, id=133, 557.08125pt x 557.08125pt>
+File: Fig13a-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig13a-eps-converted-to.pdf>
+Package pdftex.def Info: Fig13a-eps-converted-to.pdf  used on input line 735.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+Package epstopdf Info: Source file: <Fig13b.eps>
+(epstopdf)                    date: 2021-08-20 12:02:11
+(epstopdf)                    size: 67232 bytes
+(epstopdf)             Output file: <Fig13b-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:32:23
+(epstopdf)                    size: 11927 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig13b-eps-converted-to.pdf
+ Fig13b.eps>
+(epstopdf)             \includegraphics on input line 739.
+Package epstopdf Info: Output file is already uptodate.
+<Fig13b-eps-converted-to.pdf, id=134, 557.08125pt x 557.08125pt>
+File: Fig13b-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig13b-eps-converted-to.pdf>
+Package pdftex.def Info: Fig13b-eps-converted-to.pdf  used on input line 739.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+
+! Argument of \@sect has an extra }.
+<inserted text> 
+                \par 
+l.754 \section{\centering{Subcycles}}
+                                     
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\normalfont \scshape \centering }{\def \reserved@a *{\nobreak \@xcentercr \ETC
+.
+! Paragraph ended before \@sect was complete.
+<to be read again> 
+                   \par 
+l.754 \section{\centering{Subcycles}}
+                                     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <./Fig13a-eps-converted-to.pdf> <./Fig13b-eps-converted-to.pdf>] [23]
+Package epstopdf Info: Source file: <Fig14a.eps>
+(epstopdf)                    date: 2021-08-20 12:02:11
+(epstopdf)                    size: 169059 bytes
+(epstopdf)             Output file: <Fig14a-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:32:26
+(epstopdf)                    size: 11699 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig14a-eps-converted-to.pdf
+ Fig14a.eps>
+(epstopdf)             \includegraphics on input line 837.
+Package epstopdf Info: Output file is already uptodate.
+<Fig14a-eps-converted-to.pdf, id=146, 557.08125pt x 557.08125pt>
+File: Fig14a-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig14a-eps-converted-to.pdf>
+Package pdftex.def Info: Fig14a-eps-converted-to.pdf  used on input line 837.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+Package epstopdf Info: Source file: <Fig14b.eps>
+(epstopdf)                    date: 2021-08-20 12:02:11
+(epstopdf)                    size: 169043 bytes
+(epstopdf)             Output file: <Fig14b-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:32:28
+(epstopdf)                    size: 11671 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig14b-eps-converted-to.pdf
+ Fig14b.eps>
+(epstopdf)             \includegraphics on input line 839.
+Package epstopdf Info: Output file is already uptodate.
+<Fig14b-eps-converted-to.pdf, id=147, 557.08125pt x 557.08125pt>
+File: Fig14b-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig14b-eps-converted-to.pdf>
+Package pdftex.def Info: Fig14b-eps-converted-to.pdf  used on input line 839.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+! Argument of \@sect has an extra }.
+<inserted text> 
+                \par 
+l.844 ...nts and visualization of the Cantor set}}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\normalfont \scshape \centering }{\def \reserved@a *{\nobreak \@xcentercr \ETC
+.
+! Paragraph ended before \@sect was complete.
+<to be read again> 
+                   \par 
+l.844 ...nts and visualization of the Cantor set}}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[24]
+Underfull \vbox (badness 2521) has occurred while \output is active []
+
+ [25 <./Fig14a-eps-converted-to.pdf> <./Fig14b-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Fig15a.eps>
+(epstopdf)                    date: 2021-08-20 12:02:11
+(epstopdf)                    size: 64339 bytes
+(epstopdf)             Output file: <Fig15a-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:32:30
+(epstopdf)                    size: 10843 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig15a-eps-converted-to.pdf
+ Fig15a.eps>
+(epstopdf)             \includegraphics on input line 876.
+Package epstopdf Info: Output file is already uptodate.
+<Fig15a-eps-converted-to.pdf, id=159, 557.08125pt x 557.08125pt>
+File: Fig15a-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig15a-eps-converted-to.pdf>
+Package pdftex.def Info: Fig15a-eps-converted-to.pdf  used on input line 876.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+Package epstopdf Info: Source file: <Fig15b.eps>
+(epstopdf)                    date: 2021-08-20 12:02:12
+(epstopdf)                    size: 66304 bytes
+(epstopdf)             Output file: <Fig15b-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:32:32
+(epstopdf)                    size: 11571 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig15b-eps-converted-to.pdf
+ Fig15b.eps>
+(epstopdf)             \includegraphics on input line 880.
+Package epstopdf Info: Output file is already uptodate.
+<Fig15b-eps-converted-to.pdf, id=160, 557.08125pt x 557.08125pt>
+File: Fig15b-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig15b-eps-converted-to.pdf>
+Package pdftex.def Info: Fig15b-eps-converted-to.pdf  used on input line 880.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+Package epstopdf Info: Source file: <Fig16.eps>
+(epstopdf)                    date: 2021-08-20 12:02:12
+(epstopdf)                    size: 60978 bytes
+(epstopdf)             Output file: <Fig16-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-08-20 12:32:34
+(epstopdf)                    size: 9785 bytes
+(epstopdf)             Command: <epstopdf --outfile=Fig16-eps-converted-to.pdf 
+Fig16.eps>
+(epstopdf)             \includegraphics on input line 888.
+Package epstopdf Info: Output file is already uptodate.
+<Fig16-eps-converted-to.pdf, id=161, 557.08125pt x 557.08125pt>
+File: Fig16-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig16-eps-converted-to.pdf>
+Package pdftex.def Info: Fig16-eps-converted-to.pdf  used on input line 888.
+(pdftex.def)             Requested size: 155.98169pt x 155.98169pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+! Argument of \@sect has an extra }.
+<inserted text> 
+                \par 
+l.893 \section{\centering{Conclusions}}
+                                       
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\normalfont \scshape \centering }{\def \reserved@a *{\nobreak \@xcentercr \ETC
+.
+! Paragraph ended before \@sect was complete.
+<to be read again> 
+                   \par 
+l.893 \section{\centering{Conclusions}}
+                                       
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+
+Underfull \vbox (badness 6725) has occurred while \output is active []
+
+ [26 <./Fig15a-eps-converted-to.pdf> <./Fig15b-eps-converted-to.pdf>] (Tent.bbl
+
+! Argument of \@sect has an extra }.
+<inserted text> 
+                \par 
+l.1 \begin{thebibliography}{10}
+                               
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+{\normalfont \scshape \centering }{\def \reserved@a *{\nobreak \@xcentercr \ETC
+.
+! Paragraph ended before \@sect was complete.
+<to be read again> 
+                   \par 
+l.1 \begin{thebibliography}{10}
+                               
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[27 <./Fig16-eps-converted-to.pdf>]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¶ in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no © in font cmti10!
+)
+[29] (Tent.aux) ) 
+Here is how much of TeX's memory you used:
+ 2891 strings out of 493305
+ 38864 string characters out of 3138877
+ 103932 words of memory out of 3000000
+ 6216 multiletter control sequences out of 15000+200000
+ 11885 words of font info for 46 fonts, out of 3000000 for 9000
+ 1302 hyphenation exceptions out of 8191
+ 41i,14n,32p,488b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/symbols/msam10.pfb>
+Output written on Tent.pdf (29 pages, 626905 bytes).
+PDF statistics:
+ 236 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+

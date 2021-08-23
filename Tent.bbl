@@ -1,0 +1,149 @@
+\begin{thebibliography}{10}
+
+\bibitem{Lozi}
+Lozi R.
+\newblock Can we trust in numerical computations of chaotic solutions of
+  dynamical systems?
+\newblock {\em Topology and Dynamics of Chaos, \textnormal{eds. Letellier, Ch.
+  \& Gilmore, R., World Scientific Series in Non-linear Science Series A}},
+  84:63--98, 2013.
+
+\bibitem{Curtis}
+{Curtis, Lorenzo J.}
+\newblock Concept of the exponential law prior to 1900.
+\newblock {\em American Journal of Physics}, 46(9):896--906, 1978.
+
+\bibitem{Devaney}
+Devaney~R. L.
+\newblock {\em {An Introduction to Chaotic Dynamical Systems}}.
+\newblock New York: Addison-Wesley Publ. Co., {Second} edition, 1993.
+
+\bibitem{Chen}
+{Chen G., Dong X.}
+\newblock {\em {From chaos to order: Methodologies, Perspectives and
+  Application}}.
+\newblock World Scientific, Singapore, 1999.
+
+\bibitem{Andr}
+{Andrievsky B. R., Fradkov A. L.}
+\newblock {Control of Chaos: Methods and Applications}.
+\newblock {\em I. Methods, Avtomat. i Telemekh.}, no. 5:3--45, 2003.
+
+\bibitem{Biham}
+Biham O. and Wenzel W.
+\newblock {Characterization of Unstable Periodic Orbits in Chaotic Aitractors
+  and Repellers}.
+\newblock {\em Phys. Rev. Lett.}, 63(8):819--822, 1989.
+
+\bibitem{Zyg}
+Zygliczynski P.
+\newblock Computer assisted proof of chaos in the {R}össler equations and the
+  {H}énon map.
+\newblock {\em Nonlinearity}, 10(1):243--252, 1997.
+
+\bibitem{Gal2002}
+Galias Z.
+\newblock {Rigorous investigations of Ikeda map by means of interval
+  arithmetic}.
+\newblock {\em Nonlinearity}, 15:1759--1779, 2002.
+
+\bibitem{Gal2001}
+Galias Z.
+\newblock Interval methods for rigorous investigations of periodic orbits.
+\newblock {\em Int. J. Bifurc. Chaos}, 11(9):2427--2450, 2001.
+
+\bibitem{Ott}
+{Ott E., Grebodgi C., Yorke J.A.}
+\newblock Controlling chaos.
+\newblock {\em Phys. Rev. Lett.}, 64:1196--1199, 1900.
+
+\bibitem{Qian}
+{Qian, Y., Meng, W.}
+\newblock {Mixed-Mode Oscillation in a Class of Delayed Feedback System and
+  Multistability Dynamic Response}.
+\newblock {\em Complexity}, no. 4871068, 2020.
+
+\bibitem{Aleks}
+{Aleksandrov, A.Y., Zhabko, A.P.}
+\newblock On stability of solutions to one class of nonlinear difference
+  systems.
+\newblock {\em {Siberian Mathematical Journal}}, 44(6):951--958, 2003.
+
+\bibitem{Yang}
+{Yang D., Zhou J.}
+\newblock Connections among several chaos feedback control approaches and
+  chaotic vibration control of mechanical systems.
+\newblock {\em {Commun. Nonlinear Sci. Numer. Simulat}}, 19:3954--3968, 2014.
+
+\bibitem{Miller}
+{Miller J.R., Yorke J.A.}
+\newblock {Finding all periodic orbits of maps using Newton methods: sizes of
+  basins}.
+\newblock {\em {Physica D}}, 135:195--211, 2000.
+
+\bibitem{DSLS}
+{Dmitrishin D., Skrinnik I., Lesaja G., Stokolos A.}
+\newblock A new method for finding cycles by semilinear control.
+\newblock {\em {Physics Letters A}}, 383:1871--1878, 2019.
+
+\bibitem{Pyr}
+Pyragas K.
+\newblock Continuous control of chaos by self controlling feedback.
+\newblock {\em {Phys. Rev. Lett. A}}, 170:421--428, 1992.
+
+\bibitem{Vie}
+{Vieira de S.M., Lichtenberg A.J.}
+\newblock Controlling chaos using nonlinear feedback with delay.
+\newblock {\em {Phys. Rev. E}}, 54:1200--1207, 1996.
+
+\bibitem{DK}
+{Dmitrishin D. and Khamitova A.}
+\newblock Methods of harmonic analysis in nonlinear dynamics.
+\newblock {\em {Comptes Rendus Mathematique}}, 351(9-10):367--370, 2013.
+
+\bibitem{Mor}
+Morgul O.
+\newblock Further stability results for a generalization of delayed feedback
+  control.
+\newblock {\em {Nonlinear Dynamics}}, pages 1--8, 2012.
+
+\bibitem{Polyak}
+Polyak~B. T.
+\newblock Stabilizing chaos with predictive control.
+\newblock {\em {Automation and Remote Control}}, 66(11):1791--1804, 2005.
+
+\bibitem{Ushio}
+{Ushio T., Yamamoto S.}
+\newblock Prediction-based control of chaos.
+\newblock {\em {Phys. Lett. A}}, 264:30--35, 1999.
+
+\bibitem{Shal}
+Shalby L.
+\newblock Predictive feedback control method for stabilization of continuous
+  time systems.
+\newblock {\em {Advances in Systems Science and Applications}}, 17:1--13, 2017.
+
+\bibitem{DSI}
+{Dmitrishin D.V., Stokolos A.M. Iacob I.E.}
+\newblock Average predictive control for nonlinear discrete dynamical systems.
+\newblock {\em {Advances in Systems Science and Applications}}, 20(1):27--49,
+  2020.
+
+\bibitem{Derr}
+{Derrida B., Gervois A., Pomeau Y.}
+\newblock Iteration of endomorphisms on the real axis and representation of
+  numbers.
+\newblock {\em {Ann. Inst. H. Poincaré Sect. A (N.S.)}}, 29:305--356, 1978.
+
+\bibitem{Goh}
+Goh W.M.Y.
+\newblock Dynamical representation of real numbers and its universality.
+\newblock {\em {Number Theory}}, 33:334--355, 1989.
+
+\bibitem{Leonov}
+Leonov~G. A.
+\newblock {\em {Strange Attractors and Classical Stability Theory}}.
+\newblock {St. Petersburg University Press}, 2008.
+\newblock 160 (ISBN 978-5-288-04500-4).
+
+\end{thebibliography}
