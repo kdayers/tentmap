@@ -8,6 +8,7 @@
 
 %\usepackage{float}
 \usepackage{graphicx}
+\usepackage{xcolor}
 
 \usepackage{amsmath,amsthm} %for theorems to be with points
 \newtheorem{theorem}{Theorem}
@@ -35,6 +36,8 @@ Cantor set, which is determined by the periodic points of the generalized tent m
 \maketitle
 
 \section*{\centering{Introduction}}
+
+\textcolor{magenta}{Condense this introduction to one paragraph}
 
 In the seminal paper \cite{Lozi} \textit{R. Lozi} noted that numerical computations using computers play a central role in analyzing 
 solutions of nonlinear dynamical systems, that computer-aided proofs are complex and necessarily require additional special 
@@ -165,6 +168,8 @@ stabilization and search of periodic orbits, there were proposed various control
 system at previous points in time \cite{Pyr, Vie, DK, Mor} (delayed control) or about the states of the initial system at future points in time \cite{Polyak, Ushio, Shal, DSI} 
 (predictive control). 
 
+\textcolor{magenta}{Maybe start here?}
+
 The purpose of this article is to illustrate the effectiveness of the predictive control method using the example of the generalized tent map. 
 The invariant sets of the generalized tent map are repellers that have the structure of the Cantor set. It is shown that in a controlled system, 
 along with a change in the local behavior of solutions, the global behavior also changes. The invariant sets of the controlled system have been found, 
@@ -189,6 +194,7 @@ set's points of the first type.
 
 %_________________________________________________________________________________
 \section{\centering{Preliminary results}}
+\textcolor{magenta}{Background section starts here.}
 
 We consider the nonlinear discrete system 
 
@@ -226,6 +232,8 @@ where $D=\left\{z\in C:\;|z|<1\right\}$ is an open central unit circle on the co
 
 %_________________________________________________________________________________
 \section{\centering{Problem statement}}
+
+\textcolor{magenta}{This should go in the introduction.}
 
 Consider the nonlinear discrete-time equation
 \begin{equation}\label{eq}
@@ -300,6 +308,8 @@ from which
 1.
 \end{equation}
 
+\textcolor{magenta}{This isn't really a lemma, it is a statement of sufficient conditions on $\theta$ for the stability of the cycles.}
+
 \begin{lemma}\label{l1}
 Given a $T$-cycle of equation~(\ref{eq}) with the multiplier $\mu.$ This cycle will be a locally asymptotically stable cycle of 
 equation~(\ref{ceq}) if inequalities~(\ref{inp}), in the case $\mu>0,$ or inequalities~(\ref{inn}), when $\mu<0,$ are satisfied.
@@ -321,6 +331,11 @@ Below we will establish the properties of invariant sets of equation~(\ref{ceq})
 The properties are formulated as lemmas. From these properties, two main theorems, allowing us to find all cycles of arbitrary 
 lengths with any given accuracy, will follow. 
 
+\vskip 12pt
+\textcolor{magenta}{\hrule}
+\vskip 10pt
+\textcolor{magenta}{Here is the result of the paper.}
+
 \begin{theorem}\label{t2}
 If inequalities~(\ref{inp}) are satisfied, then any solution of equation~(\ref{ceq}) is bounded. Moreover, any $T$-cycle $\left\{\eta_1,\ldots,\,\eta_T\right\}$ 
 of this equation, for which the quantity $\mu = f'(\eta_T)\cdot\ldots\cdot f'(\eta_1)$ is positive, is locally asymptotically stable.
@@ -331,6 +346,12 @@ If the inequalities $\frac{H^T-\frac{1}{H}}{H^T+1}<\vartheta\leq\frac{H^T}{H^T+1
 of equation~(\ref{ceq}). Moreover, any $T$-cycle $\left\{\eta_1,\ldots,\,\eta_T\right\}$ of this equation, for which the quantity 
 $\mu = f'(\eta_T)\cdot\ldots\cdot f'(\eta_1)$ is negative, is locally asymptotically stable.
 \end{theorem}
+\vskip 12pt
+\textcolor{magenta}{
+We could illustrate these two cases, and maybe the subcases, with some figures.  Relegate the algebra in the following lemmas to an appendix??}
+\vskip 10pt
+\textcolor{magenta}{\hrule}
+\vskip 10pt
 
 We proceed to formulate and prove the main lemmas.
 
@@ -522,6 +543,8 @@ number of intervals, and the measure of this set may be small.
 %_________________________________________________________________________________
 \section{\centering{Computational particularities of using the control system}}
 
+\textcolor{magenta}{This section seems to be about basins of attraction: how to find particular cycles.}
+
 Let us consider the computational particularities of the iterative scheme~(\ref{ceq}) for finding the cycles of equation~(\ref{eq}).
 For cycles with positive multipliers, it is theoretically possible to take any number from the interval 
 $\left(\frac{H^T - \frac{1}{H}}{H^T-1},\,\frac{H^T + \frac{1}{H}}{H^T-1}\right)$ as the control parameter;
@@ -542,7 +565,8 @@ What calculation accuracy should be chosen?
 
 In practice, intermediate calculations should be introduced to control the results. Let the sequence $\left\{x_n\right\}_{n=1}^{\infty}$ 
 be a solution of equation~(\ref{ceq}), and let the quantity $1-\vartheta$ have the order of magnitude $10^{-p},$ where 
-$p$ is large enough. Then the \textit{first point of control} will be the estimate of the residual 
+$p$ is large enough. \textcolor{magenta}{Need to figure out exactly what is meant by "point of control"}. 
+Then the \textit{first point of control} will be the estimate of the residual 
 $U_n = \left\Vert f\left( \vartheta x_n + (1 - \vartheta) f^{(T)}(x_n)\right) - f(x_n)\right\Vert.$ If the sequence $\left\{x_n\right\}$ 
 tends to the solution of system~(\ref{sys}), then the sequence $\left\{U_n\right\}$ tends to zero. However, if the sequence 
 $\left\{x_n\right\}$ does not tend to the solution of system~(\ref{sys}), then the residual can have the order of magnitude 
@@ -616,6 +640,8 @@ The necessary smallness of the residual value and the condition of periodicity a
 %_________________________________________________________________________________
 \section{\centering{Graphical study of the control system map}}
 
+\textcolor{magenta}{This section is about how the basins of attraction for the various cycles are distributed.  Some examples are visualized.}
+
 Equation~(\ref{eq}) has two equilibria $\eta = 0$ and $\eta = \frac{H}{H+1}$, moreover, both are unstable; 
 their multipliers are $H$ and $-H$ respectively. Consider the equation~(\ref{ceq})
 $$
@@ -651,7 +677,7 @@ at $\vartheta=\frac34$ (black); at $\vartheta=\frac56$ (blue); graphs of the fun
 are marked in yellow} \label{f9}
 \end{figure}
 
-If we represent the Lamerey diagram on the graphs of Fig.~\ref{f8}, then we can observe that for any initial value $x_0$ 
+If we represent the Lamerey diagram \textcolor{magenta}{Not sure what this means ... } on the graphs of Fig.~\ref{f8}, then we can observe that for any initial value $x_0$ 
 and $\vartheta \in \left(\frac43,\,\frac53\right),$ the corresponding solution of equation~(\ref{ceq}) will tend to zero. 
 Analogously, Fig.~\ref{f9} can illustrate that the segment $\left[ 0,\,\frac32\right],$ under the mapping  
 $y = f \left( \vartheta x + (1 - \vartheta)f(x) \right)$ (and at $\vartheta \in \left(\frac23,\,\frac56\right)$) goes into itself.
@@ -753,6 +779,8 @@ $x_{T+1} = F(x_T) = f(x_T) = \frac{H^T}{H^T + 1} = x_1,$ i.e., $\left\{ x_1,\ldo
 %_________________________________________________________________________________
 \section{\centering{Subcycles}}
 
+\textcolor{magenta}{This section is about which cycles are stabilized together.}
+
 In equation~(\ref{eq}), for any natural $T \geq 1$ there exist $T$-cycles. Moreover, it is not difficult to estimate their number. The graph of the function 
 $y = f^{(T)}(x)$ intersects with the graph of the function $y = x$ when $x\in[0,\,1]$ exactly $2^T$ times. Two points of intersection correspond to 
 equilibria $x=0,$ $x = 1 - \frac{1}{H+1}$. This means that there are no more than $\frac{2^T - 2}{T}$ cycles of the length $T$ (excluding equilibria). 
@@ -771,7 +799,7 @@ of equation~(\ref{ceq}). Then all the $\tau$-cycles of equation~(\ref{eq}), for 
 equation~(\ref{eq}), for which the multipliers are negative and the number $\frac{T}{\tau}$ is even, are locally asymptotically stable cycles of 
 equation~(\ref{ceq}).
 
-Let condition~(\ref{inp}) be satisfied, i.e. $T$-cycles of equation~(\ref{eq}), for which the multipliers are negative, are locally asymptotically stable cycles 
+Let condition~(\ref{inn}) be satisfied, i.e. $T$-cycles of equation~(\ref{eq}), for which the multipliers are negative, are locally asymptotically stable cycles 
 of equation~(\ref{ceq}). Then all the $\tau$-cycles of equation~(\ref{eq}), for which the multipliers are negative and the number $\frac{T}{\tau}$ is odd, 
 are locally asymptotically stable cycles of equation~(\ref{ceq}).
 \end{theorem}
@@ -843,6 +871,8 @@ equilibria. Periodic and fixed points are shown in Fig.~\ref{f14} (the colors re
 %_________________________________________________________________________________
 \section{\centering{Distribution of cyclic points and visualization of the Cantor set}}
 
+\textcolor{magenta}{This is an example of waht can be done with the method: visualizing fairly accurate Cantor sets.}
+
 As noted above, the invariant set of equation~(\ref{eq}) at $H=3$ is the classical Cantor set. However, due to its strong instability, it is impossible to visualize 
 the points of this set using equation~(\ref{eq}). The Cantor set is characterized by points of the first and second type. The points that are end-points of the adjacent 
 to the Cantor set intervals are called points of the first type. All the other points of the set are called points of the second type. Points of the first type can be obtained 
@@ -898,7 +928,9 @@ of the orbit is not sufficient, due to the fact that the basin of attraction can
 However, the method of generalized predictive control, used to stabilize the orbit, has an important characteristic: in addition to the local asymptotic stability 
 of the orbits of controlled motion, the rest of the orbits remain bounded for a sufficiently large set of initial values. For the generalized tent map, it is possible to ensure 
 that all the solutions are bounded. The global behavior of solutions for the generalized logistic map, the generalized Lozi and Hénon maps, etc. is somewhat more complicated. 
-For such systems, apparently, it is necessary to choose the control parameter as a function of the current state of the system. Investigation of the global behavior of 
+For such systems, apparently, it is necessary to choose the control parameter as a function of the current state of the system. 
+\textcolor{magenta}{Need a reference, maybe even an example?}
+Investigation of the global behavior of 
 the controlled systems solutions for the mentioned maps is the task for future research.
 
 
