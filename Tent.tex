@@ -35,7 +35,7 @@ Cantor set, which is determined by the periodic points of the generalized tent m
 
 \maketitle
 
-\section*{\centering{Introduction}}
+\section*{Introduction}
 
 \textcolor{magenta}{Condense this introduction to one paragraph}
 
@@ -43,104 +43,119 @@ In the seminal paper \cite{Lozi} \textit{R. Lozi} noted that numerical computati
 solutions of nonlinear dynamical systems, that computer-aided proofs are complex and necessarily require additional special 
 validation of the results. Nevertheless, numerous researches in the fields related to chaotic dynamical systems are confident 
 in the numerical solutions that they found using popular software, with no careful check on the reliability of these results, though 
-the researches have to be very cautious to back up theory with numerical computations.
-
-The main computational problem relates to the fact that computers store numbers in registers and memory cells with a limited 
-number of digits, which results in the system of real numbers represented in the machine being discrete and finite. To trace what 
-consequences can arise because of this, let us consider an example of the computation of an iterated sequence using the standard 
-tent function $f(x)=2\cdot\left(\frac12-|x-\frac12|\right)$ in the EXCEL software environment. Choose the initial point $x_0=\frac23.$
-Then, theoretically, it must be that $f^{(k)}(x_0)=x_0,$ $k=1,\,2,\,\ldots$ (hereinafter we use the notations $f^{(1)}(x)=f(x),$ 
-$f^{(k)}(x)=f\left(f^{(k-1)}(x)\right)$). However, the calculations give different results: $f^{(53)}(x_0)=1,$ $f^{(54)}(x_0)=0.$ 
-The first impression is that the problem arose because the number $\frac23$ cannot be represented as a finite decimal fraction. Then 
-choose $x_0=0.4.$ Theoretically, there must be $f^{(1)}(x_0)=0.8,$ $f^{(2)}(x_0)=0.4,$ and so on. Yet, as a result of the calculations, 
-we again obtain $f^{(53)}(x_0)=1,$ $f^{(54)}(x_0)=0.$ The same results we will also get doing calculations in the MAPLE package, 
-if we set $x_0=HFloat(evalf(2/3))$ or $x_0=HFloat(0.4).$ There may be chosen other initial values for $x_0$, and again we will obtain
-$f^{(54)}(x_0)=0.$
-
-The reason of such incorrect computations is explained by the fact that a number from the interval $[0,\,1]$ is represented 
-in the computer in the binary system by a finite sum of numbers of the form $\frac{\alpha_j}{2^j}$ $\left(\alpha_j\in\{0,1\}\right),$
-that is, it is a dyadic rational number equal to $\frac{A}{2^m}$ ($A$ is an integer, and $0\leq A \leq 2^m$). The number $m$ is called 
-the exponent. But then $f\left(\frac{A}{2^m}\right)=\frac{A_1}{2^{m-1}}$ ($A_1$ is an integer, and $0\leq A_1 \leq 2^{m-1}$), 
-$f^{(2)}\left(\frac{A}{2^m}\right)=\frac{A_2}{2^{m-2}},$ \ldots, $f^{(m+1)}\left(\frac{A}{2^m}\right)=0.$ On the computers 
-where computations of iterated sequence were done, the maximum exponent was found to be 53.  
-
-Let us note some properties of dyadic rational numbers \cite{Curtis}. Dyadic rational numbers are closed under addition, subtraction, 
-and multiplication, but not division. Dyadic rational numbers form an everywhere dense set on the real line. As a data type used by 
-computers, floating-point numbers are often defined as integers multiplied by positive or negative powers of two, and thus all the 
-numbers, that can be represented, for example, in the IEEE floating-point format, are dyadic rationals. The same is true for most data 
-types with a fixed point.
-
-The majority of computer applications provide the representation of numbers in a convenient readable form, i.e. in decimal notation. 
-However, the problem of incorrect computations does not disappear. So in the MAPLE package, at $x_0=evalf(\frac23)$ the calculated 
-iterated sequence will differ considerably from the theoretical one, in which $f^{(k)}(x_0)=x_0,$ $k=1,\,2,\,\ldots$. Although when 
-$x=0.4,$ we will actually obtain a sequence of alternating numbers 0.4 and 0.8. 
-
-To show that the problem lies not in the numeral system used by the program for calculations, consider the function
-$$f_h(x)=
+the researches have to be very cautious to back up theory with numerical computations.\\
+Computationally, computers store numbers in registers and memory cells with a limited number of digits.  Thus, the system of real numbers represented in the machine is discrete and finite - irrational numbers, and rational numbers with infinite decimal expansions are rounded to decimal expansions that terminate.  This can lead to problems when attempting to find unstable periodic orbits of discrete chaotic dynamical systems.  \\
+As an example, in this paper, we consider the \emph{generalized tent map}:
+\begin{equation}\label{eq}
+x_{n+1}=f(x_n),\;n=1,\,2,\ldots,
+\end{equation}
+where 
+\begin{equation}\label{tent}
+f(x)=H\left(\frac12-\left|x-\frac12\right|\right)=
 \left\{\begin{array}{ll}
-hx-2j,\,x\in\left[\frac{2j}{h},\frac{2j+1}{h}\right],\;j=0,\ldots,\left[\frac{h}{2}\right]-1, \\
--hx+2j+2,\,x\in\left[\frac{2j+1}{h},\frac{2j+2}{h}\right],\;j=0,\ldots,\left[\frac{h}{2}\right]-1,
-\end{array}\right.$$
-where $h$ is a natural number (the graph of the function $f_{10}(x)$ is shown in Fig. 1). Suppose that a computer program uses 
-the numeral system with the base $h$ to represent numbers. Then for any $x_0\in[0,\,1],$ there will exist a number $m$ (the 
-maximum exponent) such that $f_h^{(m+1)}(x_0)=0.$ That is, the computations will be performed, generally speaking, not correctly.
-So, setting $x_0$ with a decimal fraction in the MAPLE package, and assigning the value $\mu$ to the Digits variable (the number of 
-decimal places used), would give us $f_{10}^{(\mu+1)}(x_0)=0.$
+Hx,\,x\leq\frac12, \\
+H(1-x),\,x>\frac12,
+\end{array}\right.
+\end{equation}
+$x\in(-\infty;+\infty),$ $H\geq2.$ Note that, despite the relative simplicity of function~(\ref{tent}), 
+equation~(\ref{eq}) is of great theoretical importance and can also be used to solve some applied problems \cite{Derr, Goh}.  Consider the classical tent map, given by $H=2$. Note that $x_0=\frac23$ is a fixed point: $f(\frac23)=\frac23$.  Since $|f'(\frac23)|=2>1$, $\frac23$ is an unstable fixed point.  Thus, any amount of rounding error will cause an orbit to eventually diverge from this fixed point, and we can see this computationally. 
 
-% Figure 1
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.28]{Fig1}
-\caption{Graph of the function $f_{10}(x)$.} \label{f1}
-\end{figure}
-
-Moreover, it is easy to show that any rational fraction from the interval $[0,\,1]$ is a periodic or preperiodic point of the map $f_h(x).$
-Indeed, under this mapping, a rational fraction goes into a rational fraction with the same denominator, and there are a finite number 
-of proper fractions with the same denominator. That is, if the calculations are performed correctly, then the sequence iterated using 
-the mapping $f_h(x)$ must be periodic (at least starting from some number). 
-
-Let $\nu$ be an integer and the base of the numeral system in which the computer program performs calculations. The sequence 
-iterated with the help of the map $f_h(x)$ will be computed correctly if and only if $\nu\neq h,$ and the initial point $x_0$ is representable 
-in the form of $\frac{A}{\nu^m}$ ($A$ is an integer, and $0\leq A\leq \nu^m$). 
-
-Let us consider one more example. Take the shifted tent function  
-$$f(x)=
-\left\{\begin{array}{ll}
-3x,\,x\leq\frac13, \\
-\frac32(1-x),\,x>\frac13.
-\end{array}\right.$$
-For the initial value $x_0=0.4,$ compute the iterated sequence using the EXCEL environment and the MAPLE package. If setting 
-$x_0=HFloat(0.4)$ in MAPLE, we will get a sequence that coincides with the sequence in EXCEL. If in the MAPLE package we set $x_0$ 
-by a decimal fraction and assign to the Digits variable the value 50, for instance, then we will obtain a completely different sequence. 
-So in EXCEL and MAPLE with binary representation of numbers $x_{49}=0.1490...,$ but in MAPLE with decimal representation
-$x_{49}=0.1488...$ . Upon further calculation, we can observe a significant divergence between the elements of these sequences 
-(for example, the corresponding values at the step 70 are 0.661... and 0.989...). Moreover, let us calculate this sequence in the MAPLE 
-package with decimal representation when the Digits variable value is 50 and 100. At the three hundredth step, we will get, correspondingly: 
-$x_{300}=0.395...$ and $x_{300}=0.930...$ . Such divergences are due to the fact that with an increase in the number of iterations, 
-the number of significant decimal digits after the decimal point in the sequence elements increases, and once their number exceeds the 
-calculation accuracy declared by the Digits variable, further iterations will be performed incorrectly.
-
-Finally, consider the logistic map $f(x)=4x(1-x).$ We will carry out the computations in the MAPLE package with decimal representation 
-at the value of the Digits variable equal to 50 and 100. In the first case, the sequence $\left\{x_k=f^{(k)}(x_0)\right\}$ will be generated, 
-in the second one -- the sequence $\left\{y_k=f^{(k)}(y_0)\right\},$ $k=1,\,2,\ldots.$ Set $x_0=y_0=0.4$ and construct the sequence 
-$\{x_k-y_k\}.$ Let us picture it on the graph (Fig. 2). It can be seen that, starting from the step 170, the behavior of this sequence is 
-quasi-stochastic. 
-
-% Figure 2
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.28]{Fig2a}
-\hspace{1cm}
-\includegraphics[scale=0.28]{Fig2b}
-\caption{Graphical representation of the sequence $\{x_k-y_k\}$ \\\centering 
-a) at $k=1,\,\ldots,\,1000$ \hspace{1cm}
-b) at $k=165,\,\ldots,\,210$} \label{f2}
-\end{figure}
-
-We can continue giving similar examples. However, the above examples already clearly show that a researcher can never be sure 
-of the correctness of calculations made on a computer. That is, the answer to \textit{R.~Lozi}'s question about trust in the numerical 
-results is, unfortunately, negative. This once again proves the need to develop mathematical methods enabling us to correct computer 
-calculations. Naturally, each such method will depend on the specifics of the problem that is being solved.  
+%The main computational problem relates to the fact that computers store numbers in registers and memory cells with a limited 
+%number of digits, which results in the system of real numbers represented in the machine being discrete and finite. To trace what 
+%consequences can arise because of this, let us consider an example of the computation of an iterated sequence using the standard 
+%tent function $f(x)=2\cdot\left(\frac12-|x-\frac12|\right)$ in the EXCEL software environment. Choose the initial point $x_0=\frac23.$
+%Then, theoretically, it must be that $f^{(k)}(x_0)=x_0,$ $k=1,\,2,\,\ldots$ (hereinafter we use the notations $f^{(1)}(x)=f(x),$ 
+%$f^{(k)}(x)=f\left(f^{(k-1)}(x)\right)$). However, the calculations give different results: $f^{(53)}(x_0)=1,$ $f^{(54)}(x_0)=0.$ 
+%The first impression is that the problem arose because the number $\frac23$ cannot be represented as a finite decimal fraction. Then 
+%choose $x_0=0.4.$ Theoretically, there must be $f^{(1)}(x_0)=0.8,$ $f^{(2)}(x_0)=0.4,$ and so on. Yet, as a result of the calculations, 
+%we again obtain $f^{(53)}(x_0)=1,$ $f^{(54)}(x_0)=0.$ The same results we will also get doing calculations in the MAPLE package, 
+%if we set $x_0=HFloat(evalf(2/3))$ or $x_0=HFloat(0.4).$ There may be chosen other initial values for $x_0$, and again we will obtain
+%$f^{(54)}(x_0)=0.$
+%
+%The reason of such incorrect computations is explained by the fact that a number from the interval $[0,\,1]$ is represented 
+%in the computer in the binary system by a finite sum of numbers of the form $\frac{\alpha_j}{2^j}$ $\left(\alpha_j\in\{0,1\}\right),$
+%that is, it is a dyadic rational number equal to $\frac{A}{2^m}$ ($A$ is an integer, and $0\leq A \leq 2^m$). The number $m$ is called 
+%the exponent. But then $f\left(\frac{A}{2^m}\right)=\frac{A_1}{2^{m-1}}$ ($A_1$ is an integer, and $0\leq A_1 \leq 2^{m-1}$), 
+%$f^{(2)}\left(\frac{A}{2^m}\right)=\frac{A_2}{2^{m-2}},$ \ldots, $f^{(m+1)}\left(\frac{A}{2^m}\right)=0.$ On the computers 
+%where computations of iterated sequence were done, the maximum exponent was found to be 53.  
+%
+%Let us note some properties of dyadic rational numbers \cite{Curtis}. Dyadic rational numbers are closed under addition, subtraction, 
+%and multiplication, but not division. Dyadic rational numbers form an everywhere dense set on the real line. As a data type used by 
+%computers, floating-point numbers are often defined as integers multiplied by positive or negative powers of two, and thus all the 
+%numbers, that can be represented, for example, in the IEEE floating-point format, are dyadic rationals. The same is true for most data 
+%types with a fixed point.
+%
+%The majority of computer applications provide the representation of numbers in a convenient readable form, i.e. in decimal notation. 
+%However, the problem of incorrect computations does not disappear. So in the MAPLE package, at $x_0=evalf(\frac23)$ the calculated 
+%iterated sequence will differ considerably from the theoretical one, in which $f^{(k)}(x_0)=x_0,$ $k=1,\,2,\,\ldots$. Although when 
+%$x=0.4,$ we will actually obtain a sequence of alternating numbers 0.4 and 0.8. 
+%
+%To show that the problem lies not in the numeral system used by the program for calculations, consider the function
+%$$f_h(x)=
+%\left\{\begin{array}{ll}
+%hx-2j,\,x\in\left[\frac{2j}{h},\frac{2j+1}{h}\right],\;j=0,\ldots,\left[\frac{h}{2}\right]-1, \\
+%-hx+2j+2,\,x\in\left[\frac{2j+1}{h},\frac{2j+2}{h}\right],\;j=0,\ldots,\left[\frac{h}{2}\right]-1,
+%\end{array}\right.$$
+%where $h$ is a natural number (the graph of the function $f_{10}(x)$ is shown in Fig. 1). Suppose that a computer program uses 
+%the numeral system with the base $h$ to represent numbers. Then for any $x_0\in[0,\,1],$ there will exist a number $m$ (the 
+%maximum exponent) such that $f_h^{(m+1)}(x_0)=0.$ That is, the computations will be performed, generally speaking, not correctly.
+%So, setting $x_0$ with a decimal fraction in the MAPLE package, and assigning the value $\mu$ to the Digits variable (the number of 
+%decimal places used), would give us $f_{10}^{(\mu+1)}(x_0)=0.$
+%
+%% Figure 1
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=0.28]{Fig1}
+%\caption{Graph of the function $f_{10}(x)$.} \label{f1}
+%\end{figure}
+%
+%Moreover, it is easy to show that any rational fraction from the interval $[0,\,1]$ is a periodic or preperiodic point of the map $f_h(x).$
+%Indeed, under this mapping, a rational fraction goes into a rational fraction with the same denominator, and there are a finite number 
+%of proper fractions with the same denominator. That is, if the calculations are performed correctly, then the sequence iterated using 
+%the mapping $f_h(x)$ must be periodic (at least starting from some number). 
+%
+%Let $\nu$ be an integer and the base of the numeral system in which the computer program performs calculations. The sequence 
+%iterated with the help of the map $f_h(x)$ will be computed correctly if and only if $\nu\neq h,$ and the initial point $x_0$ is representable 
+%in the form of $\frac{A}{\nu^m}$ ($A$ is an integer, and $0\leq A\leq \nu^m$). 
+%
+%Let us consider one more example. Take the shifted tent function  
+%$$f(x)=
+%\left\{\begin{array}{ll}
+%3x,\,x\leq\frac13, \\
+%\frac32(1-x),\,x>\frac13.
+%\end{array}\right.$$
+%For the initial value $x_0=0.4,$ compute the iterated sequence using the EXCEL environment and the MAPLE package. If setting 
+%$x_0=HFloat(0.4)$ in MAPLE, we will get a sequence that coincides with the sequence in EXCEL. If in the MAPLE package we set $x_0$ 
+%by a decimal fraction and assign to the Digits variable the value 50, for instance, then we will obtain a completely different sequence. 
+%So in EXCEL and MAPLE with binary representation of numbers $x_{49}=0.1490...,$ but in MAPLE with decimal representation
+%$x_{49}=0.1488...$ . Upon further calculation, we can observe a significant divergence between the elements of these sequences 
+%(for example, the corresponding values at the step 70 are 0.661... and 0.989...). Moreover, let us calculate this sequence in the MAPLE 
+%package with decimal representation when the Digits variable value is 50 and 100. At the three hundredth step, we will get, correspondingly: 
+%$x_{300}=0.395...$ and $x_{300}=0.930...$ . Such divergences are due to the fact that with an increase in the number of iterations, 
+%the number of significant decimal digits after the decimal point in the sequence elements increases, and once their number exceeds the 
+%calculation accuracy declared by the Digits variable, further iterations will be performed incorrectly.
+%
+%Finally, consider the logistic map $f(x)=4x(1-x).$ We will carry out the computations in the MAPLE package with decimal representation 
+%at the value of the Digits variable equal to 50 and 100. In the first case, the sequence $\left\{x_k=f^{(k)}(x_0)\right\}$ will be generated, 
+%in the second one -- the sequence $\left\{y_k=f^{(k)}(y_0)\right\},$ $k=1,\,2,\ldots.$ Set $x_0=y_0=0.4$ and construct the sequence 
+%$\{x_k-y_k\}.$ Let us picture it on the graph (Fig. 2). It can be seen that, starting from the step 170, the behavior of this sequence is 
+%quasi-stochastic. 
+%%
+%%% Figure 2
+%%\begin{figure}[h!]
+%%\centering
+%%\includegraphics[scale=0.28]{Fig2a}
+%%\hspace{1cm}
+%%\includegraphics[scale=0.28]{Fig2b}
+%%\caption{Graphical representation of the sequence $\{x_k-y_k\}$ \\\centering 
+%%a) at $k=1,\,\ldots,\,1000$ \hspace{1cm}
+%%b) at $k=165,\,\ldots,\,210$} \label{f2}
+%%\end{figure}
+%
+%We can continue giving similar examples. However, the above examples already clearly show that a researcher can never be sure 
+%of the correctness of calculations made on a computer. That is, the answer to \textit{R.~Lozi}'s question about trust in the numerical 
+%results is, unfortunately, negative. This once again proves the need to develop mathematical methods enabling us to correct computer 
+%calculations. Naturally, each such method will depend on the specifics of the problem that is being solved.  
 
 In the present article, it will be shown how we can correct the computational procedure in the problem of finding periodic orbits 
 of a nonlinear discrete system on the example of the tent map. 
@@ -168,7 +183,7 @@ stabilization and search of periodic orbits, there were proposed various control
 system at previous points in time \cite{Pyr, Vie, DK, Mor} (delayed control) or about the states of the initial system at future points in time \cite{Polyak, Ushio, Shal, DSI} 
 (predictive control). 
 
-\textcolor{magenta}{Maybe start here?}
+%\textcolor{magenta}{Maybe start here?}
 
 The purpose of this article is to illustrate the effectiveness of the predictive control method using the example of the generalized tent map. 
 The invariant sets of the generalized tent map are repellers that have the structure of the Cantor set. It is shown that in a controlled system, 
@@ -193,7 +208,7 @@ set's points of the first type.
 
 
 %_________________________________________________________________________________
-\section{\centering{Preliminary results}}
+\section{Preliminary results}
 \textcolor{magenta}{Background section starts here.}
 
 We consider the nonlinear discrete system 
@@ -231,25 +246,25 @@ where $D=\left\{z\in C:\;|z|<1\right\}$ is an open central unit circle on the co
 
 
 %_________________________________________________________________________________
-\section{\centering{Problem statement}}
+\section{Problem statement}
 
-\textcolor{magenta}{This should go in the introduction.}
+%\textcolor{magenta}{This should go in the introduction.}
 
-Consider the nonlinear discrete-time equation
-\begin{equation}\label{eq}
-x_{n+1}=f(x_n),\;n=1,\,2,\ldots,
-\end{equation}
-where 
-\begin{equation}\label{tent}
-f(x)=H\left(\frac12-\left|x-\frac12\right|\right)=
-\left\{\begin{array}{ll}
-Hx,\,x\leq\frac12, \\
-H(1-x),\,x>\frac12,
-\end{array}\right.
-\end{equation}
-$x\in(-\infty;+\infty),$ $H>2.$ The map~(\ref{tent}) is called the tent map. Note that, despite the relative simplicity of function~(\ref{tent}), 
-equation~(\ref{eq}) is of great theoretical importance and can also be used to solve some applied problems \cite{Derr, Goh}.
-
+%Consider the nonlinear discrete-time equation
+%\begin{equation}\label{eq}
+%x_{n+1}=f(x_n),\;n=1,\,2,\ldots,
+%\end{equation}
+%where 
+%\begin{equation}\label{tent}
+%f(x)=H\left(\frac12-\left|x-\frac12\right|\right)=
+%\left\{\begin{array}{ll}
+%Hx,\,x\leq\frac12, \\
+%H(1-x),\,x>\frac12,
+%\end{array}\right.
+%\end{equation}
+%$x\in(-\infty;+\infty),$ $H>2.$ The map~(\ref{tent}) is called the tent map. Note that, despite the relative simplicity of function~(\ref{tent}), 
+%equation~(\ref{eq}) is of great theoretical importance and can also be used to solve some applied problems \cite{Derr, Goh}.
+%
 A set $U$ is called invariant for equation~(\ref{eq}) if for any $x_0\in U$ it follows that $f^{(k)}(x_0)\in U,$ $k=1,\,2,\ldots\,.$ It is shown in \cite{Leonov}
 that at $H=3$ the invariant set of equation~(\ref{eq}) is the classical Cantor set. Analogously, it can be shown that when $H>2,$ the equation~(\ref{eq}) 
 invariant set is a set of the Cantor type, that is: closed, with cardinality of the continuum, with zero Lebesgue measure. Note that each point of the invariant 
@@ -263,7 +278,7 @@ for given $T$, to find $T$-periodic points of map~(\ref{tent}).
 
 
 %_________________________________________________________________________________
-\section{\centering{Control system and local behavior of the control system trajectories}}
+\section{Control system and local behavior of the control system trajectories}
 
 To solve the stated problem, we will use the predictive control method. Along with equation~(\ref{eq}), consider the equation
 \begin{equation}\label{ceq}
@@ -318,7 +333,7 @@ equation~(\ref{ceq}) if inequalities~(\ref{inp}), in the case $\mu>0,$ or inequa
 
 
 %_________________________________________________________________________________
-\section{\centering{Global behavior of the control system trajectories}}
+\section{Global behavior of the control system trajectories}
 
 If there are locally asymptotically stable cycles in equation~(\ref{ceq}), then the invariant set of this equation also includes the basins of 
 attraction of these cycles. Since the basin of attraction of a cycle is an open set, its measure is positive. However, there remains the question 
@@ -541,7 +556,7 @@ the invariant set of equation~(\ref{ceq}) will no longer be a segment, but will 
 number of intervals, and the measure of this set may be small.
 
 %_________________________________________________________________________________
-\section{\centering{Computational particularities of using the control system}}
+\section{Computational particularities of using the control system}
 
 \textcolor{magenta}{This section seems to be about basins of attraction: how to find particular cycles.}
 
@@ -638,7 +653,7 @@ The necessary smallness of the residual value and the condition of periodicity a
 \end{figure}
 
 %_________________________________________________________________________________
-\section{\centering{Graphical study of the control system map}}
+\section{Graphical study of the control system map}
 
 \textcolor{magenta}{This section is about how the basins of attraction for the various cycles are distributed.  Some examples are visualized.}
 
@@ -777,7 +792,7 @@ $x_{T+1} = F(x_T) = f(x_T) = \frac{H^T}{H^T + 1} = x_1,$ i.e., $\left\{ x_1,\ldo
 (\ref{ceq}). 
 
 %_________________________________________________________________________________
-\section{\centering{Subcycles}}
+\section{Subcycles}
 
 \textcolor{magenta}{This section is about which cycles are stabilized together.}
 
@@ -869,7 +884,7 @@ equilibria. Periodic and fixed points are shown in Fig.~\ref{f14} (the colors re
 \end{figure}
 
 %_________________________________________________________________________________
-\section{\centering{Distribution of cyclic points and visualization of the Cantor set}}
+\section{Distribution of cyclic points and visualization of the Cantor set}
 
 \textcolor{magenta}{This is an example of waht can be done with the method: visualizing fairly accurate Cantor sets.}
 
@@ -920,14 +935,14 @@ are distributed more evenly on the Cantor set.
 \end{figure}
 
 %_________________________________________________________________________________
-\section{\centering{Conclusions}}
+\section{Conclusions}
 
 In \cite{DSI}, there was solved the problem of constructing the framework of the nonlinear dynamic systems attractor through a set of the periodic orbits, which were 
 found using generalized predictive control. If the invariant set is a repeller, then the analogous problem turns out to be much more complicated: simple local stability 
 of the orbit is not sufficient, due to the fact that the basin of attraction can have a small measure, and for most of the initial points the trajectory will go to infinity. 
 However, the method of generalized predictive control, used to stabilize the orbit, has an important characteristic: in addition to the local asymptotic stability 
 of the orbits of controlled motion, the rest of the orbits remain bounded for a sufficiently large set of initial values. For the generalized tent map, it is possible to ensure 
-that all the solutions are bounded. The global behavior of solutions for the generalized logistic map, the generalized Lozi and HÃ©non maps, etc. is somewhat more complicated. 
+that all the solutions are bounded. The global behavior of solutions for the generalized logistic map, the generalized Lozi and Hénon maps, etc. is somewhat more complicated. 
 For such systems, apparently, it is necessary to choose the control parameter as a function of the current state of the system. 
 \textcolor{magenta}{Need a reference, maybe even an example?}
 Investigation of the global behavior of 
