@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+﻿\begin{thebibliography}{10}
 
 \bibitem{Lozi}
 Lozi R.
@@ -7,6 +7,15 @@ Lozi R.
 \newblock {\em Topology and Dynamics of Chaos, \textnormal{eds. Letellier, Ch.
   \& Gilmore, R., World Scientific Series in Non-linear Science Series A}},
   84:63--98, 2013.
+
+\bibitem{Lozi1}
+Lozi R.
+\newblock Un attracteur ́\’etrange (?) du type attracteur de H\’enon,
+?
+\newblock {\em J. Phys. Colloques, \textnormal{39 (1978)},
+  5-9.
+
+
 
 \bibitem{Curtis}
 {Curtis, Lorenzo J.}
