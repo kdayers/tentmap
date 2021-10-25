@@ -1,4 +1,4 @@
-﻿\begin{thebibliography}{10}
+\begin{thebibliography}{10}
 
 \bibitem{Lozi}
 Lozi R.
@@ -10,11 +10,9 @@ Lozi R.
 
 \bibitem{Lozi1}
 Lozi R.
-\newblock Un attracteur ́\’etrange (?) du type attracteur de H\’enon,
-?
-\newblock {\em J. Phys. Colloques, \textnormal{39 (1978)},
+\newblock Un attracteur l'etrange du type attracteur de Henon,
+\newblock {\em J. Phys. Colloques, \textnormal{39 (1978)}},
   5-9.
-
 
 
 \bibitem{Curtis}
